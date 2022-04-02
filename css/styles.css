@@ -1301,6 +1301,13 @@ display: flex;
     padding-right: 40px;
     padding-left: 40px;
 }
+@media screen and (max-width: 500px){
+	.col-lg-5{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
 
 /*! =================================================*/
 /*! ============ Página PiedraPapelTijera Juego ======== */
