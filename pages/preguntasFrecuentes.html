@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Preguntas Frecuentes - Imprenta Libregraff</title>
+    <meta name="keywords" content="libregraff, libreria, regalos, escuela, facultad, impresion, copiado, offset, gran formato, imprenta, mendiolaza, El talar">
+    <meta name="description" content="Este es el sitio web en el que encontrarás información de mi Imprenta Libregraff, una empresa dedicada a la producción gráfica en las áreas de impresión digital, impresión offset y gran formato. También tenes artículos de librería y regalería">
+    <!--LINK-BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!--LINK ICONS-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="nav-brand">
+            <img src="../img/isologoHorizontal.png" alt="isologotipo"> 
+        </div>
+        <nav class="nav">
+          <button class="nav-toggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+          </button>                                   
+            <ul class="nav-menu nav-menu_visible">
+                <li class="nav-menu-item"><a href="../index.html" class="nav-menu-link nav-link">HOME</a></li>
+                <li class="nav-menu-item"><a href="./nosotros.html" class="nav-menu-link nav-link">NOSOTROS</a></li>
+                <li class="nav-menu-item"><a href="./preguntasFrecuentes.html" class="nav-menu-link nav-link">PREGUNTAS FRECUENTES</a></li>
+                <li class="nav-menu-item"><a href="./servicios.html" class="nav-menu-link nav-link">SERVICIOS</a></li>
+                <li class="nav-menu-item"><a href="./contacto.html" class="nav-menu-link nav-link link--active">CONTACTO</a></li>
+                <li class="nav-menu-item"><a href="./juegos.html" class="nav-menu-link nav-link link--active menu__item--show">JUEGOS<img src="../assets/arrow.svg" class="menu__arrow"> </a>
+                    <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="./simondicejuego.html" class="menu__link menu__link--inside">Simón Dice - Juego Interactivo</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="./piedrapapeltijera.html" class="menu__link menu__link--inside">Piedra Papel Tijera - Juego interactivo</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="./miListaDeCompras.html" class="menu__link menu__link--inside">Mi lista de compras</a>
+                            </li>
+                    </ul>
+                </li>
+            </ul>       
+        </nav>
+    </header>
+<!--MAIN-SERVICES-->
+    <main>
+        <section class="services">
+            <div class="container">
+                <h2 class="subtitle">Preguntas Frecuentes<span class="point">.</span></h2>
+                <p class="copy__section">Para nosotros es importante resolver sus inquietudes. Este espacio ha sido creado para responder algunas de las consultas más frecuentes.</p>
+            </div>
+        </section>
+
+        <div class="categorias" id="categorias">
+            <div class="categoria activa" data-categoria="demasias">
+                <img src="../img/demasia.svg" alt="demasia"/>
+                <p>Las Demasías</p>
+            </div>
+            <div class="categoria" data-categoria="impresiones">
+                <img src="../img/impresiones.svg" alt="impresiones"/>
+                <p>Impresiones</p>
+            </div>
+            <div class="categoria" data-categoria="formato">
+                <img src="../img/formato.svg" alt="formato"/>
+
+                <p>Formatos</p>
+            </div>
+            <div class="categoria" data-categoria="gestion-color">
+                <img src="../img/gestion-color.svg" alt="gestion-color"/>
+                <p>Gestión del Color</p>
+            </div>
+        </div>
+
+        <div class="preguntas">
+
+            <!-- Preguntas demasia -->
+            <div class="contenedor-preguntas activo" data-categoria="demasias">
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Qué son las demasías? <img src="../img/suma.svg" alt="Abrir Respuesta" /></p>
+                    <p class="respuesta">La demasía (bleed) es un área impresa adicional en los márgenes del archivo que finalmente no formará parte de la pieza final. Se utiliza cuando tenemos imágenes o fondos que se imprimirán “al corte”, es decir, que llegarán hasta el borde del papel.</p>
+                </div>
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Cuál es el Sangrado y dónde irán las marcas de corte? <img src="../img/suma.svg" alt="Abrir Respuesta" /></p>
+                    <p class="respuesta">Para imprimir cualquier diseño es importante tener en cuenta el por donde se cortará ya que adaptar estas marcas en un trabajo prediseñado conlleva emplear mucho tiempo en la corrección. El sangrado siempre debe revisarse aunque es conocido que la medida de seguridad estándar es de 3mm.</p>
+                </div>
+            </div>
+
+            <!-- Preguntas impresiones -->
+            <div class="contenedor-preguntas" data-categoria="impresiones">
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Qué tipo de archivos puedo imprimir? <img src="../img/suma.svg" alt="Abrir Respuesta" /></p>
+                    <p class="respuesta">Lo más común es comprimir los archivos antes de subirlos y convertirlos en .zip o . rar. Normalmente los archivos que admitimos son los siguientes: .jpg, .tiff, .pdf, .ai, .psd, .eps, aunque si tienes archivos de otro tipo se pueden convertir para ser impresos con la mejor calidad.</p>
+                </div>
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Cuándo está preparado un archivo para ser impreso? <img src="../img/suma.svg" alt="Abrir Respuesta" /></p>
+                    <p class="respuesta">Una pregunta típica. Normalmente evaluamos 3 aspectos básicos para considerar un trabajo como preparado para ser impreso, primero comprobamos que el modo de color sea CMYK, a continuación comparamos las dimensiones y el sobredimensionamiento de la impresión y por último contrastamos la resolución, nunca inferior a 300 DPI.</p>
+                </div>
+            </div>
+
+            <!-- Preguntas Formatos -->
+            <div class="contenedor-preguntas" data-categoria="formato">
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Cuál es el formato más recomendable? <img src="../img/suma.svg" alt="Abrir Respuesta" /></p>
+                    <p class="respuesta">PDF (Portable Document Format) este sería el formato más utilizado e indicado para todos los tipos de impresión.
+                        También procesamos .JPG Y .TIFF para acabados con un máximo de dos páginas, como Flyers, tarjetas, dípticos etc…</p>
+                </div>
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Cómo debo preparar la resolución de mi archivo? <img src="../img/suma.svg" alt="Abrir Respuesta" /></p>
+                    <p class="respuesta">RESOLUCIÓN para papelería y folletería en general. Si lo que vas a imprimir es un folleto, una etiqueta pequeña o una tarjeta personal, lo recomendable es 300 DPI como máximo, y un mínimo de 200 DPI SIEMPRE a tamaño real. Exceder esta resolución no producirá ninguna mejora en la calidad de impresión, pero sí generará demora en la subida de tu archivo. Una resolución menor a 200 dpi puede producir el temido “pixelado”, sobre todo en textos pequeños y líneas finas.
+                        RESOLUCIÓN para impresiones en gran formato (Gigantografía). En estos casos se puede utilizar un máximo de 100 DPI y hasta un mínimo de 72 DPI. Si tu impresión supera los 9 m2, es probable que se haga muy pesado el archivo por lo que te recomendamos trabajar en escala, aclarándolo en la descripción del trabajo (ejemplo: giganto-50%.pdf).</p>
+                </div>
+            </div>
+
+            <!-- Preguntas Gestion del color-->
+            <div class="contenedor-preguntas" data-categoria="gestion-color">
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Cómo preparo la gestión de color? <img src="../img/suma.svg" alt="Abrir Respuesta" /></p>
+                    <p class="respuesta">
+                        Salvo que sepas exactamente lo que estás haciendo en tu gestión de color, el PDF para impresión debería contener sólo objetos en CMYK sin perfiles asociados o incrustados. En el caso que tengas correctamente configurada la gestión de color y tu monitor esté calibrado, el PDF podrá contener también objetos en RGB con sus correspondientes perfiles ICC incrustados. También se pueden usar colores PANTONE, acordando de antemano el uso del mismo con la imprenta.Si la impresión es offset, lo mejor es utilizar el espacio de color CMYK y/o el PANTONE que corresponda. Los espacios de color permitidos para archivos de impresión son siempre CMYK, RGB y/o PANTONE. Nunca usar otros como LAB, indexado, etc. La única excepción es para los trabajos que sólo tienen negro. Estos deben ser enviados en escala de grises.
+                        </p>
+                </div>
+                <div class="contenedor-pregunta">
+                    <p class="pregunta">¿Por qué son importantes los estándares de color? <img src="../img/suma.svg" alt="Abrir Respuesta" /></p>
+                    <p class="respuesta">El color de una marca se convierte en su tarjeta de presentación, creando asociaciones y expectativas, desencadenando imágenes y recuerdos mentales. Los estudios demuestran que el color adecuado puede aumentar el reconocimiento de la marca hasta en un 87%.
+                        En el desarrollo de productos, el color adecuado es el factor diferenciador que puede detener a alguien en su camino y captar su atención. También es el elemento de diseño más importante para reflejar el estado de ánimo y el estilo.
+                        El color adecuado puede vender productos e ideas de manera más efectiva en un 50-85% En Libregraff vamos a seguir unas reglas básicas y sencillas para que cualquier usuario del nivel que sea pueda estar tranquilo y enviar sus trabajos de imprenta sin problemas, muchos no son profesionales pero al menos te servirán para orientarte.</p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="container footer__caption">
+            <section class="politicas">
+                    <div class="footer__copy">
+                    <p class="copyright">Imprenta-Libregraff; 2021 Todos los derechos reservados</p>
+    
+                    <a href="#" class="politica__privacidad politica__privacidad--margin">Politica de privacidad</a>
+                    <a href="#" class="politica__privacidad ">Terminos y condiciones</a>
+                </div>
+            </section>
+            <section class="social__Media">
+                <h3 class="title__footer">Buscanos en nuestras Redes Sociales</h3>
+                <div class="socialmedia">
+                    <p class="socialmedia__legend">Siguenos en:</p>
+                    <i class='socialmedia__icon bx bxl-facebook-circle'></i>
+                    <i class='socialmedia__icon bx bxl-linkedin-square'></i>                                                                                                        
+                    <i class='socialmedia__icon bx bxl-twitter' ></i>   
+                    <i class='socialmedia__icon bx bxl-instagram' ></i>
+                </div>
+            </section>
+        </div>
+
+        <div class="contact">
+            <div class="item__contact">
+                <i class='bx bx-copyright contact__icon' ></i>
+                <h3 class="contact__title">Imprenta Libregraff</h3>
+            </div>
+            <div class="item__contact">
+                <i class='bx bx-mail-send contact__icon' ></i>
+                <h3 class="contact__title">libregraff@gmail.com</h3>
+            </div>
+            <div class="item__contact">
+                <i class='bx bxs-edit-location contact__icon' ></i>
+                <h3 class="contact__title">Av. Tissera 3405. L.1</h3>
+            </div>
+            <div class="item__contact item__contact--green">
+                <i class='bx bxl-whatsapp contact__icon contact__icon--modifier' ></i>
+                <h3 class="contact__whatsaap"><a href="https://api.whatsapp.com/send?phone=+5493516539975">Contáctanos ahora</a></h3>
+            </div>
+        </div>
+    </footer>
+    <!--LINK JAVASCRIPTS-->
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+    <script defer src="../js/index.js"></script>
+    <script src="../js/categorias.js"></script>
+    <script src="../js/preguntasFrecuentes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
